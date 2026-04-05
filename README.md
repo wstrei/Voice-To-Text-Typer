@@ -3,6 +3,8 @@ Convert voice to text and type that text where your cursor is. **Works on Window
 
 The only 3rd party library is "whisper" and its dependencies. The rest of the code is using std Python libraries. Making this happen with ctypes was a headache but reduces the supply chain risk. The audio is saved in a file called "recording.wav" in the current working directory, everytime you talk that file is overwritten.
 
+https://github.com/user-attachments/assets/b88d6287-5947-4669-ad33-3753913f35ad
+
 ### Requirements 
 1. Windows (tested on Windows 11)
 2. Python
