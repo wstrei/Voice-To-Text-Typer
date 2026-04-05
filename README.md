@@ -6,4 +6,17 @@ The only 3rd party library is "whisper" and its dependencies. The rest of the co
 ### Requirements 
 1. Windows (tested on Windows 11)
 2. Python
-3. OpenAI Whisper
+
+### Installation
+For troubleshooting follow https://github.com/openai/whisper guidance
+```
+python -m pip install whisper
+```
+
+### Running the Code
+```
+python voice_to_text_typer.py
+```
+* Enter the ID of the audio device you want ("0" is the default)
+* To record audio press (ctrl+win) and talk
+* Release ctrl+win and observe that within a second or two the text will appear where your cursor is
