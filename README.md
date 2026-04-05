@@ -10,7 +10,7 @@ The only 3rd party library is "whisper" and its dependencies. The rest of the co
 ### Installation
 For troubleshooting follow https://github.com/openai/whisper guidance
 ```
-python -m pip install whisper
+python -m pip install whisper, torch, torchvision torchaudio
 ```
 
 ### Running the Code
