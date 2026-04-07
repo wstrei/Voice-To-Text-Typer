@@ -14,6 +14,7 @@ For troubleshooting follow https://github.com/openai/whisper guidance
 ```
 python -m pip install whisper, torch, torchvision torchaudio
 ```
+Install ffmpeg and make sure it's in your PATH environment variable
 
 ### Running the Code
 ```
